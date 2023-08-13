@@ -2,8 +2,8 @@ public class Basket {
     private  int count;
     private int name;
 
-    public Basket(int count, int name) {
-        this.count = count;
+    public Basket(int name) {
+        count += 1;
         this.name = name;
     }
 
@@ -22,4 +22,6 @@ public class Basket {
                 ", name=" + name +
                 '}';
     }
+
+
 }
