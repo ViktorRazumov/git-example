@@ -6,4 +6,12 @@ public class Basket {
         this.count = count;
         this.name = name;
     }
+
+    public int getCount() {
+        return count;
+    }
+
+    public int getName() {
+        return name;
+    }
 }
