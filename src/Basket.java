@@ -14,4 +14,12 @@ public class Basket {
     public int getName() {
         return name;
     }
+
+    @Override
+    public String toString() {
+        return "Basket{" +
+                "count=" + count +
+                ", name=" + name +
+                '}';
+    }
 }
